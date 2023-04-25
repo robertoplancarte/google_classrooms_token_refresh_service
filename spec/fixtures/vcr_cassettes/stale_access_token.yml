@@ -1,0 +1,122 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://oauth2.googleapis.com/token
+    body:
+      encoding: UTF-8
+      string: grant_type=refresh_token&refresh_token=1%2F%2F01FLlZ30Vy2IrCgYIARAAGAESNwF-L9IrfXrRrDTV4zW6qMwD1L8wvXPeWSAcColWT3yM9m-9bhvhEsOinyslwTLG6m4d8R3EhRc
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Authorization:
+      - Basic NzExNTUxNTgwMTM1LTg5bTlyaXY1cGtpYTBhdmZrcTNudmVuaHR2N3RkZWs1LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tOmlwUFBCeW9Xa2lqZFZtVGY0Y3Q5bkxxLQ==
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Date:
+      - Sun, 16 Apr 2023 22:21:51 GMT
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "access_token": "ya29.a0Ael9sCMq8zrQgISX7jkugjB39xfOj1DDe8HEgE4A7nxs1y7mRc_swLRjZ6BR0wOyEPiOlZfBjsbouWK7O4UJk_E9XQN1cPNDTNiRYmTjjQkC_9K_azy-toZa4BS4wbaLKXEdDGuFtTnilcpILuBnx7Uh_RfyF2YaCgYKAQwSARASFQF4udJhobsrIVWziU1Kin6z6lYoKQ0166",
+          "expires_in": 3599,
+          "scope": "https://www.googleapis.com/auth/classroom.courses.readonly https://www.googleapis.com/auth/classroom.coursework.me https://www.googleapis.com/auth/classroom.coursework.students https://www.googleapis.com/auth/classroom.push-notifications https://www.googleapis.com/auth/classroom.announcements https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/classroom.courseworkmaterials.readonly https://www.googleapis.com/auth/classroom.announcements.readonly openid",
+          "token_type": "Bearer",
+          "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk2OTcxODA4Nzk2ODI5YTk3MmU3OWE5ZDFhOWZmZjExY2Q2MWIxZTMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI3MTE1NTE1ODAxMzUtODltOXJpdjVwa2lhMGF2ZmtxM252ZW5odHY3dGRlazUuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI3MTE1NTE1ODAxMzUtODltOXJpdjVwa2lhMGF2ZmtxM252ZW5odHY3dGRlazUuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTA1NzE0MTEwMzMyMDU3MDU4OTgiLCJlbWFpbCI6InN0YWZmLnRocmlsbEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Imt2UVdDNzlDWThpX0VRVmdsR1FRTXciLCJpYXQiOjE2ODE2ODM3MTEsImV4cCI6MTY4MTY4NzMxMX0.YIt9kPxWNeDaCLoBbuD2zGfRHuZDtZ5kDBc4ZhQCTos-7UpY1o3ATeatAFcheG0scUw4ZtucRhj-4bTsw_icnRtuMT3_WSMNawlS0gcfzLuccnuSvhRSZ2E90PrfXdl1PRIdGGbiAV0WHUUfeFEUkzduNWYeGUN99W53YzkVlxitsSDKnzW2hpyDfLnF1xSsIhjcKOylogOZ6Uh2io4suI2JrqsK1JqQ_sa7H9bOQyFw3TZQIMV3UIwcuwzoE4pJHxcHi_dYPpVGeEnEz0nBDEDujCIjViMVvp5Uu5C22KIT1CVExsLl0Nzu5knpgyz8HqHactmETlHSgu-QWvvmCQ"
+        }
+  recorded_at: Sun, 16 Apr 2023 23:13:53 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=ya29.a0Ael9sCMq8zrQgISX7jkugjB39xfOj1DDe8HEgE4A7nxs1y7mRc_swLRjZ6BR0wOyEPiOlZfBjsbouWK7O4UJk_E9XQN1cPNDTNiRYmTjjQkC_9K_azy-toZa4BS4wbaLKXEdDGuFtTnilcpILuBnx7Uh_RfyF2YaCgYKAQwSARASFQF4udJhobsrIVWziU1Kin6z6lYoKQ0166
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 16 Apr 2023 22:21:51 GMT
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=UTF-8
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Server:
+      - ESF
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+          "issued_to": "711551580135-89m9riv5pkia0avfkq3nvenhtv7tdek5.apps.googleusercontent.com",
+          "audience": "711551580135-89m9riv5pkia0avfkq3nvenhtv7tdek5.apps.googleusercontent.com",
+          "user_id": "110571411033205705898",
+          "scope": "openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/classroom.courseworkmaterials.readonly https://www.googleapis.com/auth/classroom.announcements.readonly https://www.googleapis.com/auth/classroom.announcements https://www.googleapis.com/auth/classroom.push-notifications https://www.googleapis.com/auth/classroom.coursework.students https://www.googleapis.com/auth/classroom.coursework.me https://www.googleapis.com/auth/classroom.courses.readonly",
+          "expires_in": 3599,
+          "email": "staff.thrill@gmail.com",
+          "verified_email": true,
+          "access_type": "offline"
+        }
+  recorded_at: Sun, 16 Apr 2023 23:13:53 GMT
+recorded_with: VCR 6.1.0

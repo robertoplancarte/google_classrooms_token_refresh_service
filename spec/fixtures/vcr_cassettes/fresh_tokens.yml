@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=ya29.a0Ael9sCOgqHR41UIEYg8TtQE2Ye2-0svfeKSQGHZ90uABF8x-m0dfkhWvloALmEOcoR074Usy6pJmrvrbCA3aSFiWEq877IDvHZy9SUrTNpo36lkRKLB0IORyF_OT9NU5SFXf90N7C6Kp-yIXFSYc3gZ-LbxYaCgYKAVgSARASFQF4udJhxRsrWpWPopSdC5M3ivZDIw0163
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Pragma:
+      - no-cache
+      Date:
+      - Sun, 16 Apr 2023 22:17:12 GMT
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Content-Type:
+      - application/json; charset=UTF-8
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Server:
+      - ESF
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+          "issued_to": "711551580135-89m9riv5pkia0avfkq3nvenhtv7tdek5.apps.googleusercontent.com",
+          "audience": "711551580135-89m9riv5pkia0avfkq3nvenhtv7tdek5.apps.googleusercontent.com",
+          "user_id": "110571411033205705898",
+          "scope": "openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/classroom.courseworkmaterials.readonly https://www.googleapis.com/auth/classroom.announcements.readonly https://www.googleapis.com/auth/classroom.announcements https://www.googleapis.com/auth/classroom.push-notifications https://www.googleapis.com/auth/classroom.coursework.students https://www.googleapis.com/auth/classroom.coursework.me https://www.googleapis.com/auth/classroom.courses.readonly",
+          "expires_in": 3401,
+          "email": "staff.thrill@gmail.com",
+          "verified_email": true,
+          "access_type": "offline"
+        }
+  recorded_at: Sun, 16 Apr 2023 22:26:40 GMT
+recorded_with: VCR 6.1.0
